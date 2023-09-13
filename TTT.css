@@ -1,0 +1,46 @@
+h1{
+  text-align: center;
+  width: 500px;
+}
+
+.turn-sign{
+  text-align: center;
+  background: peru;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: whitesmoke;
+  width: 620px;
+
+}
+.ttt-parent-block{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: aquamarine;
+  border: 10px rgb(26, 150, 63);
+  border-style: ridge;
+  max-width: 600px;
+  max-height: 600px;
+  cursor: pointer;
+}
+.ttt-block{
+  background-color: transparent;
+  border: 1px solid black;
+  text-align: center;
+  padding: 30px;
+  font-size: 70px;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.winner-announce{
+  max-width: 620px;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  background-color: red;
+  animation: mymove 7s infinite;
+}
+@keyframes mymove {
+  from {background-color: red;}
+  to {background-color: rgb(255, 0, 225);}
+}
