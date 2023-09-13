@@ -1,9 +1,14 @@
+body{
+  background-color: darkgray;
+}
 h1{
+  margin: 20px auto;
   text-align: center;
   width: 500px;
 }
 
 .turn-sign{
+  margin: 20px auto;
   text-align: center;
   background: peru;
   border: 2px solid black;
@@ -21,6 +26,7 @@ h1{
   max-width: 600px;
   max-height: 600px;
   cursor: pointer;
+  margin: 20px auto;
 }
 .ttt-block{
   background-color: transparent;
@@ -39,6 +45,7 @@ h1{
   text-align: center;
   background-color: red;
   animation: mymove 7s infinite;
+  margin: 20px auto;
 }
 @keyframes mymove {
   from {background-color: red;}
